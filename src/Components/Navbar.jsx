@@ -18,21 +18,21 @@ function Naviagation() {
                             <Nav.Link
                                 as={Link}
                                 to="/guideachat"
-                                className="nav-link fs-4"
+                                className="nav-link"
                             >
                                 Guide d'achat
                             </Nav.Link>
                             <Nav.Link
                                 as={Link}
                                 to="/promo"
-                                className="nav-link fs-4"
+                                className="nav-link"
                             >
                                 Promo
                             </Nav.Link>
                             <Nav.Link
                                 as={Link}
                                 to="/connaissezvous"
-                                className="nav-link fs-4"
+                                className="nav-link"
                             >
                                 Connaissez-vous?
                             </Nav.Link>

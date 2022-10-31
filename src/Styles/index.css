@@ -3,3 +3,63 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* === root/html === */
+:root {
+    /* palette couleur */
+    --full-white: #fff;
+    --main-white: #f1f1f1;
+    --shade-white: #b7b7b7;
+    --full-black: #000000;
+    --main-black: #333;
+    --main-gray: #aaa;
+    --main-shadow: #292929;
+    --dark-yellow: #f4cb38;
+    --amazon-yellow: #f7ca00; /* BTN */
+    --amazon-orange: #fa8900; /* BTN */
+
+    /* Fonts */
+    --font-title: "Abril Fatface", cursive;
+    --font-base: "Poppins", sans-serif;
+
+    /* Font-size */
+    --size-title: calc(2.5rem + 3.5vw);
+    --size-sub-title: calc(1.5rem + 2vw);
+    --size-section-title: calc(1.5rem + 2vw);
+    --size-p: calc(0.2rem + 1vw);
+    --text-sm: 1.4rem;
+    --text-base: 1.6rem;
+    --text-md: 1.8rem;
+    --text-lg: 2rem; /* 20px */
+    --text-xl: 2.4rem; /* 24px */
+    --text-2xl: 3rem; /* 30px */
+    --text-3xl: 3.6rem;
+    --text-4xl: 4.2rem;
+    --text-5xl: 5rem;
+    --text-6xl: 6rem;
+    --text-7xl: 7.2rem;
+
+    /* Spacing */
+    --space-1: 0.1rem;
+    --space-2: 0.2rem;
+    --space-4: 0.4rem;
+    --space-6: 0.6rem;
+    --space-8: 0.8rem;
+    --space-10: 1rem;
+    --space-12: 1.2rem;
+    --space-16: 1.6rem;
+    --space-20: 2rem;
+    --space-28: 2.8rem;
+    --space-36: 3.6rem;
+    --space-44: 4.4rem;
+    --space-52: 5.2rem;
+    --space-60: 6rem;
+    --space-72: 7.2rem;
+    --space-84: 8.4rem;
+    --space-96: 9.6rem;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    font-family: "Lato", sans-serif;
+}

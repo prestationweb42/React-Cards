@@ -1,0 +1,108 @@
+/*=== setting header ===*/
+header {
+    height: 95vh;
+}
+
+/* setting video */
+.heroVideo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    filter: brightness(40%);
+}
+
+.text-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    z-index: 100;
+}
+
+.heroH1 {
+    font-size: calc(3rem + 4vw);
+    color: #fff;
+    margin-bottom: calc(1rem + 1vw);
+    font-weight: 500;
+    line-height: calc(4rem + 5vw);
+    font-family: "Kaushan Script", sans-serif;
+}
+
+.heroP {
+    width: 90%;
+    font-size: calc(1.2rem + 2vw);
+    font-family: "Lato" !important;
+    color: #fff;
+    line-height: 1.1;
+}
+
+.btn-center {
+    margin-top: var(--space-28);
+}
+.btn-center a {
+    font-size: var(--text-xl);
+}
+.btn-center a:nth-child(2) {
+    margin-left: var(--space-12);
+}
+
+/* responsive header */
+@media screen and (max-width: 992px) {
+    .text-intro {
+        align-items: center;
+        padding: 0 20px;
+    }
+    .heroP {
+        width: 90%;
+        text-align: center;
+    }
+    .text-intro {
+        margin: none;
+    }
+    .heroH1 {
+        text-align: center;
+    }
+    .btn-center {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    .btn-center a {
+        font-size: var(--text-lg);
+    }
+}
+@media screen and (max-width: 576px) {
+    .heroH1 {
+        font-size: var(--text-2xl) !important ;
+    }
+    .btn-center {
+        display: flex;
+        flex-direction: column;
+        margin-top: var(--space-12);
+    }
+    .btn-center .btn {
+        width: 150px;
+        margin-top: var(--space-12);
+    }
+    .btn-center a {
+        font-size: var(--text-sm);
+    }
+    .btn-center a:nth-child(2) {
+        margin-left: 0;
+    }
+}
+
+/*** Section a propos ***/
+.aPropos {
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+    padding-top: 200px;
+}

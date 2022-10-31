@@ -3,8 +3,8 @@
 }
 .nav-brand {
     padding: 0;
-    font-size: 60px;
-    font-family: "Eagle Lake", cursive;
+    font-size: 65px;
+    font-family: "Kaushan Script", sans-serif;
     color: #fff;
 }
 .nav-brand:hover {
@@ -12,6 +12,7 @@
 }
 
 .nav-link {
+    font-size: 23px;
     margin-left: 20px;
     padding: 0;
     color: #fff;
