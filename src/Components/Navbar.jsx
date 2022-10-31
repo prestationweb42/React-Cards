@@ -1,38 +1,41 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import NavDropdown from "react-bootstrap/NavDropdown";
+import { Link } from "react-router-dom";
+import "../Styles/Navbar.css";
 
-function BasicExample() {
+function Naviagation() {
     return (
-        <Navbar bg="light" expand="lg">
-            <Container>
-                <Navbar.Brand href="/home">Arbre à Chat</Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
-                        <Nav.Link href="/home">Home</Nav.Link>
-                        <Nav.Link href="/promo">Promo</Nav.Link>
-                        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">
-                                Action
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">
-                                Another action
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">
-                                Something
-                            </NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">
-                                Separated link
-                            </NavDropdown.Item>
-                        </NavDropdown>
+        <>
+            {/* <Navbar bg="primary" variant="dark"> */}
+            <Navbar className="nav-bar">
+                <Container>
+                    <Navbar.Brand as={Link} to="/" className="nav-brand">
+                        Arbre à chat
+                    </Navbar.Brand>
+                    <Nav className="ms-auto">
+                        <Nav.Link as={Link} to="/" className="nav-link fs-4">
+                            Home
+                        </Nav.Link>
+                        <Nav.Link
+                            as={Link}
+                            to="/promo"
+                            className="nav-link fs-4"
+                        >
+                            Promo
+                        </Nav.Link>
+                        <Nav.Link
+                            as={Link}
+                            to="/connaissezvous"
+                            className="nav-link fs-4"
+                        >
+                            Connaissez-vous?
+                        </Nav.Link>
                     </Nav>
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
+                </Container>
+            </Navbar>
+        </>
     );
 }
 
-export default BasicExample;
+export default Naviagation;

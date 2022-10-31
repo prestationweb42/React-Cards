@@ -1,0 +1,19 @@
+.nav-bar {
+    background: #b22222;
+}
+.nav-brand {
+    font-size: 60px;
+    font-family: 'Eagle Lake', cursive;
+    color: #fff;
+}
+
+.nav-link {
+    margin-left: 20px;
+    padding: 0;
+    color: #fff;
+}
+.nav-link:hover {
+    color: #000;
+    background-color: #fff;
+    border-radius: 10px;
+}
