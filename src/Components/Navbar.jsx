@@ -14,8 +14,12 @@ function Naviagation() {
                         Arbre à chat
                     </Navbar.Brand>
                     <Nav className="ms-auto">
-                        <Nav.Link as={Link} to="/" className="nav-link fs-4">
-                            Home
+                        <Nav.Link
+                            as={Link}
+                            to="/guideachat"
+                            className="nav-link fs-4"
+                        >
+                            Guide d'achat
                         </Nav.Link>
                         <Nav.Link
                             as={Link}

@@ -10,39 +10,13 @@ const Home = () => {
             <Navbar />
             <div className="container-fluid py-3">
                 <h3 className="text-info text-center mt-3">
-                    Sélection d'arbres à chat
+                    home
                 </h3>
                 <div className="container">
-                    <div className="row">
-                        {Data.products.map((item, index) => {
-                            return (
-                                <Cards
-                                    img={item.img}
-                                    title={item.title}
-                                    desc={item.desc}
-                                    price={item.price}
-                                    key={index}
-                                />
-                            );
-                        })}
-                        {/* <Cards img="" title="" desc="" /> */}
-                    </div>
+                    <h3>section 1</h3>
                 </div>
                 <div className="container mt-3">
-                    <div className="row">
-                        {Data.products.map((item, index) => {
-                            return (
-                                <Cards
-                                    img={item.img}
-                                    title={item.title}
-                                    desc={item.desc}
-                                    price={item.price}
-                                    key={index}
-                                />
-                            );
-                        })}
-                        {/* <Cards img="" title="" desc="" /> */}
-                    </div>
+                    <h3>section 2</h3>
                 </div>
             </div>
         </>

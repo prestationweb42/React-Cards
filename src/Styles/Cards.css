@@ -1,6 +1,9 @@
+.card{
+    border: 2px solid green;
+}
 .card img{
     height: 350px;
-    object-fit: cover;
+    object-fit: contain;
 }
 .card-body button{
     display: block;
