@@ -8,14 +8,17 @@ import Guideachat from "./Pages/Guideachat";
 function App() {
     return (
         <div className="App">
-            <BrowserRouter>
+            <BrowserRouter basename="/React-Cards">
                 <Routes>
                     <Route path="/" element={<Home />} />
                     {/* path="*" fonctionne si l'url ne correspond à rien  */}
                     <Route path="*" element={<Home />} />
                     <Route path="/guideachat" element={<Guideachat />} />
                     <Route path="/promo" element={<Promo />} />
-                    <Route path="/connaissezvous" element={<Connaissezvous />} />
+                    <Route
+                        path="/connaissezvous"
+                        element={<Connaissezvous />}
+                    />
                 </Routes>
             </BrowserRouter>
         </div>
