@@ -8,7 +8,7 @@ import Guideachat from "./Pages/Guideachat";
 function App() {
     return (
         <div className="App">
-            <BrowserRouter>
+            <BrowserRouter basename="/tothepoint_login">
                 <Routes>
                     <Route path="/" element={<Home />} />
                     {/* path="*" fonctionne si l'url ne correspond à rien  */}
