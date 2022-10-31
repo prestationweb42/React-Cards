@@ -23,20 +23,18 @@ const Home = () => {
                         choisir et acheter l'arbre à chat qui vous convient.
                     </p>
                     <div className="btn-center">
-                        
-                        <a
-                            as={Link}
+                        <Link
                             to="/guideachat"
                             className="btn btn-lg btn-outline-light"
                         >
                             GUIDE D'ACHAT
-                        </a>
-                        <a
-                            href="./pages/promotions.html#promotions-2050"
+                        </Link>
+                        <Link
+                            to="/promo"
                             className="btn btn-lg btn-outline-light"
                         >
                             PROMOTIONS
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
