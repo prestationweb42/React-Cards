@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/React-Cards/static/css/main.3cde1c30.css",
-    "main.js": "/React-Cards/static/js/main.4b73dfdd.js",
+    "main.css": "/React-Cards/static/css/main.bc942f19.css",
+    "main.js": "/React-Cards/static/js/main.13c370e3.js",
     "static/media/img1.jpg": "/React-Cards/static/media/img1.d7c3c9020d0a9a1c54f6.jpg",
     "static/media/img2.jpg": "/React-Cards/static/media/img2.8a2622867fa1daddfd5f.jpg",
     "static/media/img4.jpg": "/React-Cards/static/media/img4.cf4ea20980c075057ca4.jpg",
     "static/media/img3.jpg": "/React-Cards/static/media/img3.76a321001ce402ff2058.jpg",
     "index.html": "/React-Cards/index.html",
-    "main.3cde1c30.css.map": "/React-Cards/static/css/main.3cde1c30.css.map",
-    "main.4b73dfdd.js.map": "/React-Cards/static/js/main.4b73dfdd.js.map"
+    "main.bc942f19.css.map": "/React-Cards/static/css/main.bc942f19.css.map",
+    "main.13c370e3.js.map": "/React-Cards/static/js/main.13c370e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cde1c30.css",
-    "static/js/main.4b73dfdd.js"
+    "static/css/main.bc942f19.css",
+    "static/js/main.13c370e3.js"
   ]
 }
