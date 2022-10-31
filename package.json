@@ -2,7 +2,7 @@
     "name": "card-react",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://prestationweb42.github.io/React-Cards",
+    "homepage": "https://prestationweb42.github.io/React-Cards/",
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^13.4.0",
