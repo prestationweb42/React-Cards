@@ -2,7 +2,7 @@
     border: 2px solid green;
 }
 .card img{
-    height: 350px;
+    height: 300px;
     object-fit: contain;
 }
 .card-body button{
