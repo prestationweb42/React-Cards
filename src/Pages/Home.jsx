@@ -1,7 +1,5 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
-import Cards from "../Components/Cards";
-import Data from "../Backend/Data";
 import "../Styles/Home.css";
 
 const Home = () => {
