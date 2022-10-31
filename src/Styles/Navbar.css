@@ -36,3 +36,8 @@
 .nav-link:hover {
     color: #fff;
 }
+.nav-link.active{
+    color: #fff !important;
+    text-decoration: overline dotted;
+}
+

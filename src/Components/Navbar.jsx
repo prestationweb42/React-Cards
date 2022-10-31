@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../Styles/Navbar.css";
 
 function Naviagation() {
@@ -15,27 +16,27 @@ function Naviagation() {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
-                            <Nav.Link
+                            <NavLink
                                 as={Link}
                                 to="/guideachat"
                                 className="nav-link"
                             >
                                 Guide d'achat
-                            </Nav.Link>
-                            <Nav.Link
+                            </NavLink>
+                            <NavLink
                                 as={Link}
                                 to="/promo"
                                 className="nav-link"
                             >
                                 Promo
-                            </Nav.Link>
-                            <Nav.Link
+                            </NavLink>
+                            <NavLink
                                 as={Link}
                                 to="/connaissezvous"
                                 className="nav-link"
                             >
                                 Connaissez-vous?
-                            </Nav.Link>
+                            </NavLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
+import { Link } from "react-router-dom";
 import "../Styles/Home.css";
 
 const Home = () => {
@@ -22,8 +23,10 @@ const Home = () => {
                         choisir et acheter l'arbre à chat qui vous convient.
                     </p>
                     <div className="btn-center">
+                        
                         <a
-                            href="./pages/guideachat.html#guideachat-2050"
+                            as={Link}
+                            to="/guideachat"
                             className="btn btn-lg btn-outline-light"
                         >
                             GUIDE D'ACHAT
