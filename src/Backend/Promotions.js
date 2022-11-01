@@ -41,6 +41,24 @@ const Productions = {
             desc: "Desc 4",
             price: 75,
         },
+        {
+            id: 5,
+            img: img4,
+            promo: "15%",
+            limit: "31/11/2022",
+            title: "Prod 4",
+            desc: "Desc 4",
+            price: 75,
+        },
+        {
+            id: 6,
+            img: img4,
+            promo: "15%",
+            limit: "31/11/2022",
+            title: "Prod 4",
+            desc: "Desc 4",
+            price: 75,
+        }
     ],
 };
 export default Productions;

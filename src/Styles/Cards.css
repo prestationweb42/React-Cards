@@ -39,11 +39,11 @@
     font-weight: 900;
     font-family: var(--font-base);
     color: var(--red-crimson);
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.7);
     rotate: -30deg;
     margin: 0 auto;
     padding: 0 var(--space-10);
-    border-radius: 9999px;
+    border-radius: 10px;
 }
 
 
