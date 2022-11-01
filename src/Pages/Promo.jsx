@@ -17,6 +17,8 @@ const Promo = () => {
                             return (
                                 <Cards
                                     img={item.img}
+                                    promo={item.promo}
+                                    limit={item.limit}
                                     title={item.title}
                                     desc={item.desc}
                                     price={item.price}

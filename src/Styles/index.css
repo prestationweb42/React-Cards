@@ -6,6 +6,7 @@
 /* === root/html === */
 :root {
     /* palette couleur */
+    --red-crimson: #dc143c;
     --full-white: #fff;
     --main-white: #f1f1f1;
     --shade-white: #b7b7b7;
@@ -14,12 +15,15 @@
     --main-gray: #aaa;
     --main-shadow: #292929;
     --dark-yellow: #f4cb38;
+    --amazon-orange-star: #ffa41c; /* Stars */
+    --amazon-orange-dark: #c45500; /* Encart */
     --amazon-yellow: #f7ca00; /* BTN */
     --amazon-orange: #fa8900; /* BTN */
+    --amazon-green: #228b22; /* BTN */
 
     /* Fonts */
-    --font-title: "Abril Fatface", cursive;
-    --font-base: "Poppins", sans-serif;
+    --font-title: Kaushan Script, serif;
+    --font-base:  Lato, sans-serif;
 
     /* Font-size */
     --size-title: calc(2.5rem + 3.5vw);

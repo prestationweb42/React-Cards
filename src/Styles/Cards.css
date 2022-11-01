@@ -1,11 +1,54 @@
-.card{
+/*** Card CSS ***/
+/* Setting card */
+.card {
     border: 2px solid green;
+    position: relative;
+    transition: transform 0.2s ease-in;
 }
-.card img{
+.card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.2s ease-in;
+}
+
+/* Setting card  img */
+.card img {
     height: 250px;
     object-fit: contain;
 }
-.card-body button{
+
+/* Setting card promo */
+.promo {
+    position: absolute;
+    top: var(--space-1);
+    left: var(--space-1);
+    font-size: var(--text-xl);
+    font-weight: 700;
+    font-family: var(--font-base);
+    padding: 5px;
+    color: var(--full-white);
+    background: var(--amazon-green);
+    border-radius: 5px;
+}
+/* Setting card limit */
+.datelimit {
+    position: absolute;
+    top: var(--space-28);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: var(--text-3xl);
+    font-weight: 900;
+    font-family: var(--font-base);
+    color: var(--red-crimson);
+    background: rgba(0, 0, 0, 0.5);
+    /* background: transparent; */
+    rotate: -30deg;
+    margin: 0 auto;
+}
+
+
+
+/* Setting card btn */
+.card-body button {
     display: block;
     margin: 0 auto;
 }

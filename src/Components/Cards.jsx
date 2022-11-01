@@ -11,6 +11,8 @@ const Cards = (props) => {
                         alt=""
                         className="card-img-top img-fluid"
                     />
+                    <p className="promo">{props.promo}</p>
+                    <p className="datelimit">{props.limit}</p>
                     <div className="card-body">
                         <div className="d-flex justify-content-around">
                             <h4 className="card-title text-center">
