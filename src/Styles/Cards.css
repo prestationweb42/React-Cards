@@ -24,10 +24,10 @@
     font-size: var(--text-xl);
     font-weight: 700;
     font-family: var(--font-base);
-    padding: 5px;
+    padding: 6px;
     color: var(--full-white);
     background: var(--amazon-green);
-    border-radius: 5px;
+    border-radius: 9999px;
 }
 /* Setting card limit */
 .datelimit {
@@ -39,10 +39,11 @@
     font-weight: 900;
     font-family: var(--font-base);
     color: var(--red-crimson);
-    background: rgba(0, 0, 0, 0.5);
-    /* background: transparent; */
+    background: rgba(255, 255, 255, 0.5);
     rotate: -30deg;
     margin: 0 auto;
+    padding: 0 var(--space-10);
+    border-radius: 9999px;
 }
 
 
