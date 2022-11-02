@@ -32,15 +32,15 @@
 /* Setting card limit */
 .datelimit {
     position: absolute;
-    top: var(--space-28);
-    left: 50%;
+    top: var(--space-20);
+    left: 25%;
     transform: translate(-50%, -50%);
     font-size: var(--text-3xl);
     font-weight: 900;
     font-family: var(--font-base);
     color: var(--red-crimson);
     background: rgba(255, 255, 255, 0.7);
-    rotate: -30deg;
+    rotate: -40deg;
     margin: 0 auto;
     padding: 0 var(--space-10);
     border-radius: 10px;
