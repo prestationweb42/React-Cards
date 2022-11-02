@@ -42,9 +42,9 @@ const Promo = () => {
                     Promotions de notre partenaire sur les arbres à chat pour un
                     budget compris entre <span>50</span> € et <span>100</span> €
                 </h2>
-                <h2 className="text-center my-3">
+                <h3 className="text-center my-3">
                     Attention aux dates limites
-                </h2>
+                </h3>
                 <div className="container">
                 <p className="fs-2 mt-3">Dernière mise à jour : 01/11/2022</p>
                     <div className="row">
