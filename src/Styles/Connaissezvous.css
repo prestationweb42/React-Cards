@@ -1,0 +1,114 @@
+/*=== Setting Sections Petkit Pura ===*/
+.petkitpura {
+    min-height: 100vh;
+    border-top: 1px dashed #000;
+}
+.titleH2 {
+    font-size: var(--text-3xl);
+    padding-top: var(--space-96);
+    padding-bottom: var(--space-44);
+    font-family: var(--font-base);
+}
+
+/*--- setting cards ---*/
+.cards {
+    max-width: 640px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    transition: 0.2s ease-in;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* setting header img */
+.header {
+    width: 100%;
+    height: 75%;
+    position: relative;
+}
+
+.header img {
+    width: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+/* setting details card */
+.titleCard,
+.textDetails {
+    font-size: var(--text-lg);
+    font-family: var(--font-base);
+    background-color: #fff;
+    margin: var(--space-10) 0;
+    transition: 0.2s ease-in;
+    text-align: justify;
+    line-height: 1.1;
+}
+.textDetails span {
+    font-weight: bolder;
+    font-size: var(--text-xl);
+}
+.titleCard {
+    font-size: var(--text-2xl);
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+@media screen and (max-width: 1200px) {
+    .petkitpura {
+        min-height: auto;
+    }
+    .cards {
+        height: auto;
+    }
+}
+@media screen and (max-width: 992px) {
+    .cards {
+        width: 80%;
+    }
+    .cards:nth-child(2) {
+        margin-top: var(--space-16);
+    }
+    .titleH2 {
+        font-size: var(--text-2xl);
+        padding-top: var(--space-84);
+        padding-bottom: var(--space-20);
+    }
+    .titleCard {
+        font-size: var(--text-xl);
+        margin-top: var(--space-12);
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 576px) {
+    .cards{
+        width: 95%;
+    }
+    .titleH2 {
+        font-size: var(--text-xl);
+        padding-top: var(--space-60);
+    }
+    
+    .header img {
+        width: 100%;
+        /* object-fit: cover; */
+        margin: 0 auto;
+    }
+    .titleCard {
+        font-size: var(--text-lg);
+    }
+    .textDetails {
+        font-size: var(--text-md);
+    }
+}
+@media screen and (max-width: 350px) {
+    .titleCard {
+        font-size: var(--text-md);
+    }
+    .textDetails {
+        font-size: var(--text-base);
+    }
+}
