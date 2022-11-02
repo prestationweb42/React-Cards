@@ -28,7 +28,7 @@
     /* Font-size */
     --size-navbar-brand: calc(2.2rem + 2.5vw);
     --size-title: calc(2rem + 3.5vw);
-    --size-sub-title: calc(1.5rem + 2vw);
+    --size-sub-title: calc(0.5rem + 2vw);
     --size-section-title: calc(1.5rem + 2vw);
     --size-navlink: calc(0.7rem + 1vw);
     --size-p: calc(0.2rem + 1vw);

@@ -1,1 +1,30 @@
 /*** Promo CSS ***/
+/* Section €20-50 */
+#€20-50 {
+    font-family: var(--font-base);
+}
+#€20-50 h1 {
+    font-size: var(--text-2xl);
+    font-weight: 600;
+}
+#€20-50 h1 span {
+    font-size: var(--text-3xl);
+    font-weight: bolder;
+}
+#€20-50 h2 {
+    font-size: var(--text-2xl);
+}
+
+/* Section €50-100 */
+#€50-100 {
+    font-family: var(--font-base);
+    background-color: var(--main-white);
+}
+#€50-100 h2 {
+    font-size: var(--text-2xl);
+    font-weight: 600;
+}
+#€50-100 h2 span {
+    font-size: var(--text-3xl);
+    font-weight: bolder;
+}

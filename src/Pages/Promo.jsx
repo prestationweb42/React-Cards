@@ -2,16 +2,24 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import Cards from "../Components/Cards";
 import Promotions from "../Backend/Promotions";
+import "../Styles/Promo.css";
 
 const Promo = () => {
     return (
         <>
             <Navbar />
-            <section id="20-50" className="container-fluid py-3 h-100">
-                <h1 className="text-success ft-2 text-center mt-3">
-                    Nos promotions sur les arbres à chat
+            <section id="€20-50" className="container-fluid py-5">
+                <h1 className="text-success text-center mt-3">
+                    Promotions de notre partenaire sur les arbres à chat pour un
+                    budget compris entre <span>20</span> € et <span>50</span> €
                 </h1>
+                <h2 className="text-center mt-3">
+                    Attention aux dates limites
+                </h2>
                 <div className="container">
+                    <p className="fs-2 mt-3">
+                        Dernière mise à jour : 01/11/2022
+                    </p>
                     <div className="row">
                         {Promotions.products.map((item, index) => {
                             return (
@@ -29,11 +37,16 @@ const Promo = () => {
                     </div>
                 </div>
             </section>
-            <section id="50-100" className="container-fluid py-3">
-                <h3 className="text-success text-center mt-3">
-                    Nos promotions sur les arbres à chat
-                </h3>
+            <section id="€50-100" className="container-fluid py-5">
+                <h2 className="text-success text-center mt-3">
+                    Promotions de notre partenaire sur les arbres à chat pour un
+                    budget compris entre <span>50</span> € et <span>100</span> €
+                </h2>
+                <h2 className="text-center my-3">
+                    Attention aux dates limites
+                </h2>
                 <div className="container">
+                <p className="fs-2 mt-3">Dernière mise à jour : 01/11/2022</p>
                     <div className="row">
                         {Promotions.products.map((item, index) => {
                             return (
