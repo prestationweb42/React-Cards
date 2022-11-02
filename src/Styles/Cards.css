@@ -46,20 +46,39 @@
     border-radius: 10px;
 }
 
-
-
-/* Setting card btn */
+/* Setting card button */
 .card-body button {
-    display: block;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     margin: 0 auto;
+    width: 80%;
+    height: 50px;
+}
+.card-body button img {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+.card-body button span {
+    font-size: var(--text-lg);
+    font-weight: 600;
+}
+.card-body button i {
+    /* width: 20px; */
+    /* height: 20px; */
+    font-size: var(--text-2xl);
+    font-weight: bolder;
+    color: black;
 }
 
 /** Responsive **/
 @media screen and (max-width: 576px) {
-    .promo{
+    .promo {
         font-size: var(--text-lg);
     }
     .datelimit {
-font-size: var(--text-xl);
+        font-size: var(--text-xl);
     }
 }

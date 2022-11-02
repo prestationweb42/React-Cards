@@ -1,10 +1,11 @@
 import React from "react";
+import logoamazon from "./img/amazon-2.png";
 import "../Styles/Cards.css";
 
 const Cards = (props) => {
     return (
         <>
-            <div className="col-sm-12 col-md-6 col-xl-4 col-xxl-3 mt-1">
+            <div className="col-sm-12 col-md-6 col-xl-4 col-xxl-3 mt-3">
                 <div className="card h-100">
                     <img
                         src={props.img}
@@ -27,7 +28,9 @@ const Cards = (props) => {
                         <p className="card-text text-center">{props.desc}</p>
 
                         <button className="btn btn-outline-success mt-3 p-2">
-                            Ajouter au panier
+                            <img src={logoamazon} alt="logo amazon" />
+                            <span>Voir l'offre</span>
+                            <i className="bx bx-chevron-right"></i>
                         </button>
                     </div>
                 </div>
