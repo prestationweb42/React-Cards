@@ -3,7 +3,7 @@
 }
 .nav-brand {
     padding: 0;
-    font-size: var(--size-title);
+    font-size: var(--size-navbar-brand);
     font-family: "Kaushan Script", sans-serif;
     color: var(--full-white);
 }
