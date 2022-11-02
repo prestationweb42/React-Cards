@@ -26,7 +26,7 @@
     --font-base:  Lato, sans-serif;
 
     /* Font-size */
-    --size-navbar-brand: calc(2rem + 3vw);
+    --size-navbar-brand: calc(2.2rem + 2.5vw);
     --size-title: calc(2rem + 3.5vw);
     --size-sub-title: calc(1.5rem + 2vw);
     --size-section-title: calc(1.5rem + 2vw);
