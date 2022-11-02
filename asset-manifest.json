@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/React-Cards/static/css/main.661122b5.css",
-    "main.js": "/React-Cards/static/js/main.9614fd43.js",
+    "main.css": "/React-Cards/static/css/main.66d6d658.css",
+    "main.js": "/React-Cards/static/js/main.52a22a83.js",
+    "static/media/img10.png": "/React-Cards/static/media/img10.671517dfe57c43309249.png",
     "static/media/img1.jpg": "/React-Cards/static/media/img1.d7c3c9020d0a9a1c54f6.jpg",
     "static/media/img2.jpg": "/React-Cards/static/media/img2.8a2622867fa1daddfd5f.jpg",
     "static/media/img4.jpg": "/React-Cards/static/media/img4.cf4ea20980c075057ca4.jpg",
     "static/media/amazon-2.png": "/React-Cards/static/media/amazon-2.536abf5940fd3da94ac6.png",
     "static/media/img3.jpg": "/React-Cards/static/media/img3.76a321001ce402ff2058.jpg",
     "index.html": "/React-Cards/index.html",
-    "main.661122b5.css.map": "/React-Cards/static/css/main.661122b5.css.map",
-    "main.9614fd43.js.map": "/React-Cards/static/js/main.9614fd43.js.map"
+    "main.66d6d658.css.map": "/React-Cards/static/css/main.66d6d658.css.map",
+    "main.52a22a83.js.map": "/React-Cards/static/js/main.52a22a83.js.map"
   },
   "entrypoints": [
-    "static/css/main.661122b5.css",
-    "static/js/main.9614fd43.js"
+    "static/css/main.66d6d658.css",
+    "static/js/main.52a22a83.js"
   ]
 }
