@@ -8,9 +8,9 @@ const Promo = () => {
         <>
             <Navbar />
             <section id="20-50" className="container-fluid py-3 h-100">
-                <h3 className="text-success text-center mt-3">
+                <h1 className="text-success ft-2 text-center mt-3">
                     Nos promotions sur les arbres à chat
-                </h3>
+                </h1>
                 <div className="container">
                     <div className="row">
                         {Promotions.products.map((item, index) => {

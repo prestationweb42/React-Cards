@@ -29,6 +29,7 @@
     --size-title: calc(2.5rem + 3.5vw);
     --size-sub-title: calc(1.5rem + 2vw);
     --size-section-title: calc(1.5rem + 2vw);
+    --size-navlink: calc(0.7rem + 1vw);
     --size-p: calc(0.2rem + 1vw);
     --text-sm: 1.4rem;
     --text-base: 1.6rem;

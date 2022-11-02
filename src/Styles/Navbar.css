@@ -3,17 +3,17 @@
 }
 .nav-brand {
     padding: 0;
-    font-size: 65px;
+    font-size: var(--size-title);
     font-family: "Kaushan Script", sans-serif;
-    color: #fff;
+    color: var(--full-white);
 }
 .nav-brand:hover {
     color: #fff;
 }
 
 .nav-link {
-    font-size: 23px;
-    margin-left: 20px;
+    font-size: var(--size-navlink);
+    margin-left: var(--space-16);
     padding: 0;
     color: #fff;
 }
@@ -24,20 +24,19 @@
     height: 2px;
     position: relative;
     top: 4px;
-    background-color: #fff;
+    background-color: var(--full-white);
     transform: scaleX(0);
     transition: transform 0.2s ease-in-out;
 }
 .nav-link:hover::after {
-    color: #fff;
+    color: var(--full-white);
     transform: scaleX(1);
     transition: transform 0.2s ease-in-out;
 }
 .nav-link:hover {
-    color: #fff;
+    color: var(--full-white);
 }
-.nav-link.active{
-    color: #fff !important;
+.nav-link.active {
+    color: var(--full-white) !important;
     text-decoration: overline dotted;
 }
-

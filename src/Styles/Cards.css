@@ -53,3 +53,13 @@
     display: block;
     margin: 0 auto;
 }
+
+/** Responsive **/
+@media screen and (max-width: 576px) {
+    .promo{
+        font-size: var(--text-lg);
+    }
+    .datelimit {
+font-size: var(--text-xl);
+    }
+}
