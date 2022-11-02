@@ -33,7 +33,7 @@
 .datelimit {
     position: absolute;
     top: var(--space-20);
-    left: 25%;
+    left: 30%;
     transform: translate(-50%, -50%);
     font-size: var(--text-3xl);
     font-weight: 900;
