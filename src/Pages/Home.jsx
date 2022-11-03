@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <>
             <Navbar />
-            <section className="container-fluid">
+            <section id="heroHeader" className="container-fluid">
                 <iframe
                     class="heroVideo"
                     src="https://www.youtube-nocookie.com/embed/U9OBp177_M8?autoplay=1&controls=0&showinfo=0&mute=1&loop=1"

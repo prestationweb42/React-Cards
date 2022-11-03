@@ -1,6 +1,7 @@
 /*** Promo CSS ***/
 /* Section €20-50 */
 #€20-50 {
+    min-height: 95vh;
     font-family: var(--font-base);
 }
 #€20-50 h1 {
@@ -11,12 +12,22 @@
     font-size: var(--text-3xl);
     font-weight: bolder;
 }
-#€20-50 h2 {
+#€20-50 .sub-title {
     font-size: var(--text-2xl);
+}
+
+/* Sommaire */
+.sommaire {
+    max-width: 400px;
+}
+.accorBody a {
+    font-size: var(--text-md);
+    text-decoration: none;
 }
 
 /* Section €50-100 */
 #€50-100 {
+    min-height: 95vh;
     font-family: var(--font-base);
     background-color: var(--main-white);
 }
@@ -29,6 +40,7 @@ h3 {
     font-size: var(--text-3xl);
     font-weight: bolder;
 }
+
 /* responsive */
 @media screen and (max-width: 576px) {
     /* section 20-50 */
