@@ -14,7 +14,7 @@ const Promo = () => {
                     Promotions de notre partenaire sur les arbres à chat pour un
                     budget compris entre <span>20</span> € et <span>50</span> €
                 </h1>
-                <h2 className="text-center mt-3 sub-title">
+                <h2 className="text-center mt-3">
                     Attention aux dates limites
                 </h2>
                 <div className="container">
@@ -24,7 +24,7 @@ const Promo = () => {
                     {/* Sommaire */}
                     <Accordion defaultActiveKey="0" className="sommaire">
                         <Accordion.Item eventKey="0">
-                            <Accordion.Header className="fs-1">
+                            <Accordion.Header>
                                 <p className="fs-2">Sommaire</p>
                             </Accordion.Header>
                             <Accordion.Body>

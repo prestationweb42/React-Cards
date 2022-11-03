@@ -12,7 +12,7 @@
     font-size: var(--text-3xl);
     font-weight: bolder;
 }
-#€20-50 .sub-title {
+#€20-50 h2 {
     font-size: var(--text-2xl);
 }
 
@@ -68,4 +68,8 @@ h3 {
         font-size: var(--text-xl);
         font-weight: bolder;
     }
+    /* sommaire */
+    .accorBody a {
+    font-size: var(--text-sm);
+}
 }
