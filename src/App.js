@@ -4,6 +4,7 @@ import Home from "./Pages/Home";
 import Promo from "./Pages/Promo";
 import Connaissezvous from "./Pages/Connaissezvous";
 import Guideachat from "./Pages/Guideachat";
+import GoToTop from "./Components/GoToTop";
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
                     />
                 </Routes>
             </BrowserRouter>
+            <GoToTop />
         </div>
     );
 }
