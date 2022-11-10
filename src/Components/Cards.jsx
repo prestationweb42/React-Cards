@@ -27,11 +27,11 @@ const Cards = (props) => {
                         <p className="card-text text-center">{props.desc}</p>
                         <p className="card-text text-center">{props.desc}</p>
 
-                        <button className="btn btn-outline-success mt-3 p-2">
+                        <a className="btn btn-outline-success mt-3 p-2">
                             <img src={logoamazon} alt="logo amazon" />
                             <span>Voir l'offre</span>
                             <i className="bx bx-chevron-right"></i>
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>

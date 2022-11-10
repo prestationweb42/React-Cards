@@ -47,7 +47,7 @@
 }
 
 /* Setting card button */
-.card-body button {
+.card-body a {
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -56,18 +56,16 @@
     width: 80%;
     height: 50px;
 }
-.card-body button img {
+.card-body a img {
     display: block;
     width: 20px;
     height: 20px;
 }
-.card-body button span {
+.card-body a span {
     font-size: var(--text-lg);
     font-weight: 600;
 }
-.card-body button i {
-    /* width: 20px; */
-    /* height: 20px; */
+.card-body a i {
     font-size: var(--text-2xl);
     font-weight: bolder;
     color: black;
@@ -81,4 +79,23 @@
     .datelimit {
         font-size: var(--text-xl);
     }
+    /* Setting card button */
+    .card-body a {
+        width: 80%;
+        height: 40px;
+    }
+    .card-body a img {
+        width: 16px;
+        height: 16px;
+        margin-top: 5px;
+    }
+    .card-body a span {
+        font-size: var(--text-md);
+        font-weight: 500;
+    }
+    .card-body a i {
+        font-size: var(--text-xl);
+        margin-top: 5px;
+    
+}
 }
