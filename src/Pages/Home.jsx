@@ -17,7 +17,7 @@ const Home = () => {
                     allowfullscreen
                 ></iframe>
                 <div className="container header text-intro">
-                    <h1 className="heroH1">Arbres à Chat</h1>
+                    <h1 className="heroH1">Arbres à chat pas cher</h1>
                     <p className="heroP text-center font-italic">
                         Bienvenue sur notre site de sélection pour vous aider à
                         choisir et acheter l'arbre à chat qui vous convient.

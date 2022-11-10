@@ -11,7 +11,7 @@ function Naviagation() {
             <Navbar className="nav-bar" expand="xl">
                 <Container>
                     <Navbar.Brand as={Link} to="/" className="nav-brand">
-                        Arbre à chat
+                        Arbre à chat pas cher
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
