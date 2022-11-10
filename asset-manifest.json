@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Cards/static/css/main.72b5180c.css",
-    "main.js": "/React-Cards/static/js/main.c9a26edf.js",
+    "main.css": "/React-Cards/static/css/main.7a9fe778.css",
+    "main.js": "/React-Cards/static/js/main.cbab4451.js",
     "static/media/img10.png": "/React-Cards/static/media/img10.671517dfe57c43309249.png",
     "static/media/img1.jpg": "/React-Cards/static/media/img1.d7c3c9020d0a9a1c54f6.jpg",
     "static/media/img2.jpg": "/React-Cards/static/media/img2.8a2622867fa1daddfd5f.jpg",
@@ -9,11 +9,11 @@
     "static/media/amazon-2.png": "/React-Cards/static/media/amazon-2.536abf5940fd3da94ac6.png",
     "static/media/img3.jpg": "/React-Cards/static/media/img3.76a321001ce402ff2058.jpg",
     "index.html": "/React-Cards/index.html",
-    "main.72b5180c.css.map": "/React-Cards/static/css/main.72b5180c.css.map",
-    "main.c9a26edf.js.map": "/React-Cards/static/js/main.c9a26edf.js.map"
+    "main.7a9fe778.css.map": "/React-Cards/static/css/main.7a9fe778.css.map",
+    "main.cbab4451.js.map": "/React-Cards/static/js/main.cbab4451.js.map"
   },
   "entrypoints": [
-    "static/css/main.72b5180c.css",
-    "static/js/main.c9a26edf.js"
+    "static/css/main.7a9fe778.css",
+    "static/js/main.cbab4451.js"
   ]
 }
