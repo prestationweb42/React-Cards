@@ -9,7 +9,7 @@ import GoToTop from "./Components/GoToTop";
 function App() {
     return (
         <div className="App">
-            <BrowserRouter basename="/React-Cards">
+            <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Home />} />
                     {/* path="*" fonctionne si l'url ne correspond à rien  */}

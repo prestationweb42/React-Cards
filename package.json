@@ -1,7 +1,7 @@
 {
-    "name": "hostinger-react",
-    "homepage": "https://arbre-a-chat-pas-cher.fr/",
-    "version": "1.0.0",
+    "name": "card-react",
+    "homepage": ".",
+    "version": "0.1.0",
     "description": "arbre a chat pas cher",
     "private": true,
     "dependencies": {

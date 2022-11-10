@@ -47,7 +47,7 @@
 }
 
 /* Setting card button */
-.card-body a {
+.card-body button {
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -56,16 +56,16 @@
     width: 80%;
     height: 50px;
 }
-.card-body a img {
+.card-body button img {
     display: block;
     width: 20px;
     height: 20px;
 }
-.card-body a span {
+.card-body button span {
     font-size: var(--text-lg);
     font-weight: 600;
 }
-.card-body a i {
+.card-body button i {
     font-size: var(--text-2xl);
     font-weight: bolder;
     color: black;
@@ -80,20 +80,20 @@
         font-size: var(--text-xl);
     }
     /* Setting card button */
-    .card-body a {
+    .card-body button {
         width: 80%;
         height: 40px;
     }
-    .card-body a img {
+    .card-body button img {
         width: 16px;
         height: 16px;
         margin-top: 5px;
     }
-    .card-body a span {
+    .card-body button span {
         font-size: var(--text-md);
         font-weight: 500;
     }
-    .card-body a i {
+    .card-body button i {
         font-size: var(--text-xl);
         margin-top: 5px;
     
