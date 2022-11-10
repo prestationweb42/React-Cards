@@ -51,13 +51,23 @@ const Wrapper = styled.section`
         border-radius: 50%;
         text-decoration: none;
         position: fixed;
-        bottom: 6rem;
-        right: 6rem;
+        bottom: 7rem;
+        right: 3rem;
         z-index: 999;
         display: flex;
         justify-content: center;
         align-items: center;
         cursor: pointer;
+    }
+
+    @media screen and (max-width: 576px) {
+        .top-btn {
+            font-size: 4rem;
+            width: 4rem;
+            height: 4rem;
+            bottom: 4rem;
+            right: 3rem;
+        }
     }
 `;
 
