@@ -1,8 +1,9 @@
 {
-    "name": "card-react",
-    "version": "0.1.0",
-    "private": true,
+    "name": "hostinger-react",
     "homepage": "https://arbre-a-chat-pas-cher.fr/",
+    "version": "1.0.0",
+    "description": "arbre a chat pas cher",
+    "private": true,
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^13.4.0",
